@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kaushan+Script&display=swap');
+
+img{
+    width: 150px;
+    
+}
+body{
+     background-image:   url(pexels-pixabay-33109.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+     background-color: rgba(0,0,0,0.7);
+     background-blend-mode: darken;
+     font-family: "Kaushan Script";
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#menu{
+    color: whitesmoke;
+    font-family: "Kaushan Script", cursive, bold italic;
+    font-size: 20px;
+    
+    display: flex;
+   /* flex-direction: row;
+    justify-content: flex-start;*/
+    align-items: center;
+    flex-wrap: wrap;
+
+    list-style:none;
+    cursor:pointer;
+    
+    margin-right:50px ;
+    
+    
+}
+
+.home{
+    
+    font-size: larger;
+    font-weight: bolder;
+    width: 100px;
+}
+
+.home:hover{
+    color: 		burlywood;     
+    text-decoration: underline;
+    
+   
+}
+h1{
+    color: burlywood;
+    font-size: 40px;
+    margin: 0px;
+    
+}
+p{
+    font-family: "Kaushan Script", cursive;
+    font-size: larger;
+    color: whitesmoke;
+    text-align:center;
+}
+.data{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+#button {
+    
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.log{
+    color: whitesmoke;
+    height: 60px;
+    width:140px;
+    font-size: 20px;
+    font-style:oblique;
+    font-weight: bolder;
+    border-radius: 50px;
+    margin-right: 50px;
+    background-color: transparent;
+    transition-delay:0.1s;
+    border-color: burlywood/*#f69000*/;
+    
+    border-width: 5px;
+    
+}
+.log:hover{
+    background-color:burlywood;
+    color: 	#5C4033; 
+}
+
+
+
